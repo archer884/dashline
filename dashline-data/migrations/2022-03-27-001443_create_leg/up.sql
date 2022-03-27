@@ -1,5 +1,5 @@
 create table if not exists leg (
-    id integer not null primary key,
+    id integer generated always as identity primary key,
 
     created_by integer not null,
     created_date timestamptz not null,

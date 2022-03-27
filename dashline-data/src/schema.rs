@@ -36,4 +36,8 @@ joinable!(flight -> leg (leg_id));
 joinable!(flight -> pilot (pilot_id));
 joinable!(leg -> pilot (created_by));
 
-allow_tables_to_appear_in_same_query!(flight, leg, pilot,);
+allow_tables_to_appear_in_same_query!(
+    flight,
+    leg,
+    pilot,
+);

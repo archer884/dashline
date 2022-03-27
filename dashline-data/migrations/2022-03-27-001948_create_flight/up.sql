@@ -1,5 +1,5 @@
 create table if not exists flight (
-    id integer not null primary key,
+    id integer generated always as identity primary key,
     pilot_id integer not null,
     leg_id integer not null,
 
