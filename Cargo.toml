@@ -1,2 +1,2 @@
 [workspace]
-members = ["dashline-cli", "dashline-data"]
+members = ["dashline-api", "dashline-cli", "dashline-data"]
